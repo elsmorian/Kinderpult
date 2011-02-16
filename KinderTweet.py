@@ -4,7 +4,7 @@ November 2010
 Chris Elsmore (elsmorian@gmail.com)
 
 
-Python script that listens to the KinderPult over a serial connection, and tweets when it fires.
+Python script that listens to the KinderPult egg catapult over a serial connection, and tweets using OAuth when it fires.
 CONSUMER_Key and SECRET come from registering a new application with Twitter
 ACCESS_TOKEN_KEY and SECRET aquired from one time verification by user with twitter web service:-
 
@@ -26,8 +26,8 @@ Requires tweepy and PySerial: "easy_install pyserial tweepy"
 Tweepy Demo: http://joshthecoder.github.com/tweepy/docs/auth_tutorial.html#auth-tutorial
 """
 
-import serial           #Import pyserial    # Import libraries
-import tweepy           #Import twitter
+import serial           #Import pyserial
+import tweepy           #Import twitter lib tweepy
 
 # Set key and secret constants
 
